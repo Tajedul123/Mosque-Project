@@ -1,5 +1,20 @@
-nav ul, li{
+h1{
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav ul, nav li{
+    list-style: none;
     padding: 0;
     margin: 0;
-}
+    text-decoration: none;
+    float: left;
+
+    .navbar{
+        background-color: beige;
+        width: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-around;
+    }
