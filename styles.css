@@ -2,6 +2,12 @@ h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.container {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 nav ul, nav li{
     list-style: none;
     padding: 0;
@@ -17,4 +23,7 @@ nav ul, nav li{
     .navbar ul {
         display: flex;
         justify-content: space-around;
+    }
+    body{
+        background-color: aquamarine;
     }
