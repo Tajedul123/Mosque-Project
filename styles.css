@@ -2,34 +2,49 @@ h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform:capitalize
+    
 }
+.test{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;;
+    position: relative;
+    right: 0px;
+}
+.container{
+   
+    
+}
+.navbar{
+list-style: none;
 
-*/.container {
-    width: 500px;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
-nav ul, nav li{
+.image-container{
+    width: 750px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    background-image: url('Mosque picture.jpg'); /* Path to your image file */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image in the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    border: 3px solid #ccc; /* Optional: Add a border for better visibility */
+  }
+
+  body{
+    background-color: aquamarine;
+  }
+  nav ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 10;
+    display: flex; /* Display the list items horizontally */
+  }
+  
+  nav li {
+    margin-right: 40px; /* Add spacing between list items */
+  }
+  nav a{
     text-decoration: none;
-    float: left;
-
-    .navbar{
-        background-color: beige;
-        width: 100%;
-    }
-
-    .navbar ul {
-        display: flex;
-        justify-content: space-around;
-    }
-    body{
-        background-color: aquamarine;
-    }
-    h1{
-        position: ;
-    }
-    .
+    color: #000;
+    padding: 10px; /* Add padding to the links */
+    display: block;
+  }
+  
