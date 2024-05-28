@@ -1,40 +1,49 @@
-#wrapper{
-  background-color: aqua;
+body{
+  background-color: rgb(186, 216, 206);
 }
 
+#wrapper{
+  background-color: rgb(246, 60, 60);
 
+}
 
+.navbar{
+  background-color: rgb(13, 13, 14);
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10;
+  display: flex; /* Display the list items horizontally */
+}
 
+nav li {
+  margin-right: 60px; /* Add spacing between list items */
+}
+nav a{
+  text-decoration: none;
+  color: #fbf7f7;
+  padding: 10px; /* Add padding to the links */
+  display: block;
+}
+
+#banner{
+  width: 70vw;
+  height: 100vw;
+  background-image: url(Pictures/Banner\ image.png);
+}
 h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform:capitalize
+    text-transform:capitalize;
     
 }
 
-  body{
-    background-color: rgb(186, 216, 206);
-  }
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 10;
-    display: flex; /* Display the list items horizontally */
-  }
-  
-  nav li {
-    margin-right: 60px; /* Add spacing between list items */
-  }
-  nav a{
-    text-decoration: none;
-    color: #000;
-    padding: 10px; /* Add padding to the links */
-    display: block;
-  }
-  #banner{
-    background-image: url(Pictures/banner.png);
-  }
-  . absolute-right{
+
+  .absolute-right {
+    position: absolute;
+    right: 0;
+    top: 0;
 
   }
 
