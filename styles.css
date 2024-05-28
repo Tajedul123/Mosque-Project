@@ -10,17 +10,7 @@ h1{
     position: relative;
     right: 0px;
 }
-.container{
-   
-#banner {
-  background-image:url(Pictures/Jamat\ Khana.jpeg)
-}
 
-}
-.navbar{
-list-style: none;
-
-}
 
 .image-container{
     width: 750px; /* Set the width of the container */
@@ -32,7 +22,7 @@ list-style: none;
     border: 3px solid #ccc; /* Optional: Add a border for better visibility */
   }
   body{
-    background-color: aquamarine;
+    background-color: rgb(186, 216, 206);
   }
   nav ul {
     list-style: none;
@@ -49,5 +39,8 @@ list-style: none;
     color: #000;
     padding: 10px; /* Add padding to the links */
     display: block;
+  }
+  #banner{
+    background-image: url(Pictures/banner.png);
   }
   
