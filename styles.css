@@ -1,26 +1,17 @@
+#wrapper{
+  background-color: aqua;
+}
+
+
+
+
 h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform:capitalize
     
 }
-.test{
-    font-family: 'Courier New', Courier, monospace;
-    color: #000;;
-    position: relative;
-    right: 0px;
-}
 
-
-.image-container{
-    width: 750px; /* Set the width of the container */
-    height: 200px; /* Set the height of the container */
-    background-image: url('/Pictures/Jamat\ Khana.png'); /* Path to your image file */
-    background-size: cover; /* Ensure the image covers the entire container */
-    background-position: center; /* Center the image in the container */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    border: 3px solid #ccc; /* Optional: Add a border for better visibility */
-  }
   body{
     background-color: rgb(186, 216, 206);
   }
@@ -32,7 +23,7 @@ h1{
   }
   
   nav li {
-    margin-right: 40px; /* Add spacing between list items */
+    margin-right: 60px; /* Add spacing between list items */
   }
   nav a{
     text-decoration: none;
@@ -43,4 +34,8 @@ h1{
   #banner{
     background-image: url(Pictures/banner.png);
   }
+  . absolute-right{
+
+  }
+
   
