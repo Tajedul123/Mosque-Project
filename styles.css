@@ -9,6 +9,7 @@ body{
 
 .navbar{
   background-color: rgb(13, 13, 14);
+  width:auto
 }
 nav ul {
   list-style: none;
@@ -28,10 +29,9 @@ nav a{
 }
 
 #banner{
-  width: 70vw;
-  height: 100vw;
   background-image: url(Pictures/Banner\ image.png);
 }
+
 h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -39,12 +39,14 @@ h1{
     
 }
 
-
   .absolute-right {
     position: absolute;
     right: 0;
     top: 0;
 
+  }
+  #image-container{
+    background-image: url(Pictures/red-hatchback-l-plates.webp);
   }
 
   
