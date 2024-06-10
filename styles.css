@@ -28,8 +28,14 @@ nav a{
   display: block;
 }
 
+
+
 #banner{
-  background-image: url(Pictures/Banner\ image.png);
+     background-image: url('Pictures/traffic-road-night-main.png'); 
+      height: 200px; /* Set a fixed height for the banner 
+      */ background-size: cover; /* Ensure the image covers the banner area 
+      */ background-position: center; /* Centre the background image 
+      */ background-repeat: no-repeat; Prevent the image from repeating
 }
 
 h1{
